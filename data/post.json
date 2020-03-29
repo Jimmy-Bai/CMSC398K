@@ -1,0 +1,15 @@
+{
+  "post": [
+    {
+      "post-date": "2020-03-29T18:25:43Z",
+      "start-date": "2020-03-29T18:25:43Z",
+      "end-date": "2020-03-29T18:25:43Z",
+      "type": "discount",
+      "location": "Blaze Pizza",
+      "description": "Free pizza for everyone",
+      "upvote": 0,
+      "downvote": 0,
+      "uuid": 123456789
+    }
+  ]
+}

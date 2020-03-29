@@ -1,0 +1,250 @@
+{
+  "restaurants": [
+    {
+      "name": "Arby's"
+    },
+    {
+      "name": "Aroy Thai Restaurant"
+    },
+    {
+      "name": "Bagel Place"
+    },
+    {
+      "name": "Blaze Pizza"
+    },
+    {
+      "name": "Burger King"
+    },
+    {
+      "name": "C.B Chinese Grill"
+    },
+    {
+      "name": "Casey's Coffee"
+    },
+    {
+      "name": "CAVA"
+    },
+    {
+      "name": "Chick-fil-A"
+    },
+    {
+      "name": "Chipotle Mexican Grill"
+    },
+    {
+      "name": "Class 520"
+    },
+    {
+      "name": "Cluck U Chicken"
+    },
+    {
+      "name": "Cold Stone Creamery"
+    },
+    {
+      "name": "College Park Grill"
+    },
+    {
+      "name": "Cornerstone Grill & Loft"
+    },
+    {
+      "name": "cranberry lemonade"
+    },
+    {
+      "name": "Denny's"
+    },
+    {
+      "name": "Domino's Pizza"
+    },
+    {
+      "name": "Dunkin'"
+    },
+    {
+      "name": "Five Guys"
+    },
+    {
+      "name": "Food Factory"
+    },
+    {
+      "name": "Gongcha"
+    },
+    {
+      "name": "Hanami Japanese Restaurant"
+    },
+    {
+      "name": "Insomnia Cookies"
+    },
+    {
+      "name": "Ivy Noodles"
+    },
+    {
+      "name": "Jason's Deli"
+    },
+    {
+      "name": "Jimmy John's"
+    },
+    {
+      "name": "Jumbo Jumbo Cafe"
+    },
+    {
+      "name": "Kangnam BBQ"
+    },
+    {
+      "name": "King Kong Restaurant"
+    },
+    {
+      "name": "Krazi Burrito"
+    },
+    {
+      "name": "Krazi Kebob"
+    },
+    {
+      "name": "Kung Fu Tea"
+    },
+    {
+      "name": "Looney's Pub"
+    },
+    {
+      "name": "LOTSA Stone Fired Pizza"
+    },
+    {
+      "name": "Marathon Deli"
+    },
+    {
+      "name": "Marathon Deli"
+    },
+    {
+      "name": "Maryland Dairy"
+    },
+    {
+      "name": "McDonald's"
+    },
+    {
+      "name": "MilkBoy ArtHouse"
+    },
+    {
+      "name": "Moby Dick House of Kabob"
+    },
+    {
+      "name": "Nando's Peri-Peri"
+    },
+    {
+      "name": "Noodles and Company"
+    },
+    {
+      "name": "North Campus Diner"
+    },
+    {
+      "name": "Northwest Chinese Food"
+    },
+    {
+      "name": "NuVegan Cafe"
+    },
+    {
+      "name": "Old Maryland Grill"
+    },
+    {
+      "name": "Panda Express"
+    },
+    {
+      "name": "Papa John's Pizza"
+    },
+    {
+      "name": "Pho D'Lite"
+    },
+    {
+      "name": "Pho Thom"
+    },
+    {
+      "name": "Pizza Kingdom"
+    },
+    {
+      "name": "POH-YO Charcoal Chicken"
+    },
+    {
+      "name": "Popeyes Louisiana Kitchen"
+    },
+    {
+      "name": "Potbelly Sandwich Shop"
+    },
+    {
+      "name": "Qdoba"
+    },
+    {
+      "name": "QU JAPAN"
+    },
+    {
+      "name": "RJ Bentley's Restaurant"
+    },
+    {
+      "name": "Saburo Ramen Bar"
+    },
+    {
+      "name": "Saladworks"
+    },
+    {
+      "name": "Samovar"
+    },
+    {
+      "name": "Sbarro"
+    },
+    {
+      "name": "Seoul Spice"
+    },
+    {
+      "name": "Shanghai Cafe"
+    },
+    {
+      "name": "Shanghai Tokyo Cafe"
+    },
+    {
+      "name": "South Campus Diner"
+    },
+    {
+      "name": "Starbucks"
+    },
+    {
+      "name": "Subway"
+    },
+    {
+      "name": "Sushinado & Teriyaki"
+    },
+    {
+      "name": "sweetgreen"
+    },
+    {
+      "name": "taco Bell"
+    },
+    {
+      "name": "Taqueria Habanero"
+    },
+    {
+      "name": "Ten Ren's Tea Time"
+    },
+    {
+      "name": "Terrapin's Turf"
+    },
+    {
+      "name": "The Board and Brew"
+    },
+    {
+      "name": "The Common"
+    },
+    {
+      "name": "The Original ledo Restaurant"
+    },
+    {
+      "name": "The Red Boat Asian Fusion"
+    },
+    {
+      "name": "The Spot Mini"
+    },
+    {
+      "name": "Wasabi Bistro"
+    },
+    {
+      "name": "Wings Over"
+    },
+    {
+      "name": "Zhang's Noodles"
+    }
+  ]
+}

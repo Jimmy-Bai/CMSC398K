@@ -3,28 +3,61 @@
 
 <head>
   <meta charset="UTF-8">
+  {{!-- Stylesheets & Fonts --}}
   <link rel="stylesheet" type="text/css" href="/public/css/main.css">
-  <title>Final Project</title>
+  <link rel="stylesheet" type="text/css"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  {{!-- JavaScript --}}
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/1b682b18f2.js" crossorigin="anonymous"></script>
+  <title>Final Project</title>
 </head>
-<div class="nav">
-  <div>
-    <a href="/Players">Players</a>
-    <a href="/Sports">Sports</a>
-    <a href="/States">States</a>
-    <a href="/Alphabetical">Alphabetical</a>
-    <a href="/Championships">Championships</a>
+{{!-- Navbar --}}
+{{>nav-bar}}
+
+{{!-- Body --}}
+
+<body>
+  {{{body}}}
+</body>
+
+{{!-- Modal --}}
+<div class="modal fade" id="add-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">New post</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Start date:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="col-form-label">End date:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Add post</button>
+      </div>
+    </div>
   </div>
 </div>
 
-<body>
-  <button type="button" id="createNew">Enter a Team</button> {{{body}}}
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
-  <script>
-    $('#createNew').on('click', function() {
-      console.log("hi");
-    });
-  </script>
-</body>
-
+{{!-- Persistant add button --}}
+<div class="add-button-box" role="button"  data-toggle="modal" data-target="#add-modal">
+  <div class="add-button">
+    <i class="fas fa-plus-square"></i>
+  </div>
+</div>
 </html>

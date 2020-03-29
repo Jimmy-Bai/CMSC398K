@@ -1,1 +1,26 @@
-Home
+{{#each post}}
+<div class="container">
+  <div class="card mt-4">
+    <h5 class="card-header"><a href="/post/{{this.uuid}}">{{this.location}}</a> - posted at {{this.post-date}}</h5>
+    <div class="card-body">
+      <h5 class="card-title">From {{this.start-date}} to {{this.end-date}}</h5>
+      <h5 class="card-title">Type: {{this.type}}</h5>
+      <p class="card-text">{{this.description}}</p>
+      <button type="button" class="btn btn-outline-light" data-toggle="button" aria-pressed="false" autocomplete="off"><i
+          class="fas fa-thumbs-up"></i>{{this.upvote}}</button>
+      <button type="button" class="btn btn-outline-light" data-toggle="button" aria-pressed="false" autocomplete="off"><i
+          class="fas fa-thumbs-down"></i>{{this.downvote}}</button>
+    </div>
+  </div>
+</div>
+{{else}}
+<div class="container">
+  <div class="card mt-4 post text-center">
+    <div class="card-body">
+      <div>
+        There are current no discounts/freebies. Come check back later!
+      </div>
+    </div>
+  </div>
+</div>
+{{/each}}
