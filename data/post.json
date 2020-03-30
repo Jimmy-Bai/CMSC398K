@@ -1,15 +1,1 @@
-{
-  "post": [
-    {
-      "post-date": "2020-03-29T18:25:43Z",
-      "start-date": "2020-03-29T18:25:43Z",
-      "end-date": "2020-03-29T18:25:43Z",
-      "type": "discount",
-      "location": "Blaze Pizza",
-      "description": "Free pizza for everyone",
-      "upvote": 0,
-      "downvote": 0,
-      "uuid": 123456789
-    }
-  ]
-}
+{"post":[{"post_date":"2020-03-29T18:25:43.176Z","start_date":"Mar 10th, 2020","end_date":"Mar 10th, 2020","type":"Discount","location":"Aroy Thai Restaurant","description":"Free pizza for everyone","upvote":0,"downvote":0,"uuid":123456789},{"post_date":"2020-03-30T06:49:45.176Z","start_date":"Mar 17th, 2020","end_date":"Mar 10th, 2020","type":"Free","location":"Blaze Pizza","description":"Free 420","upvote":0,"downvote":0,"uuid":1585550985177}]}

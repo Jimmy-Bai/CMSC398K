@@ -1,21 +1,91 @@
 :root {
     font-size: 16px;
-    --bg-main: #202124;
-    --color-primary: #3c4042;
-    --color-secondary: #606368;
+    --bg-main: #030303;
+    --color-primary: #1a1a1b;
+    --color-secondary: #272729;
+    --border-color: #343536;
     --text-primary: #fcfcfc;
-    --add-button-primary: #ea80fc;
-    --add-button-hover: #ffb2ff;
-    --add-button-active: #b64fc8;
+    --text-secondary: #c0c0c0;
+    --button-primary-1: #ea80fc;
+    --button-hover-1: #ffb2ff;
+    --button-active-1: #b64fc8;
+    --button-primary-2: #ea80fc;
+    --button-hover-2: #ffb2ff;
+    --button-active-2: #b64fc8;
 }
 
-html body {
-    background-color: var(--bg-main);
+/* Native HTML Element CSS */
+
+html, body {
+    background-color: var(--bg-main) !important;
+}
+
+input, textarea {
+    background: var(--color-secondary) !important;
+    color: var(--text-primary) !important;
+    border-color: var(--border-color) !important;
 }
 
 i {
     padding: 5px;
 }
+
+th {
+    width: 30px;
+    text-align: center;
+}
+
+td a {
+    text-align: center !important;
+}
+
+::placeholder {
+    font-style: italic;
+    color: var(--text-secondary) !important;
+}
+
+/* JQuery Date Picker CSS */
+
+.ui-datepicker-header, .ui-widget-header {
+    background: var(--color-secondary) !important;
+    border-color: var(--border-color) !important;
+    color: var(--text-primary) !important;
+}
+
+.ui-widget-content {
+    background: var(--color-primary) !important;
+    border-color: var(--border-color) !important;
+    color: var(--text-primary) !important;
+}
+
+.ui-state-default {
+    background: var(--color-secondary) !important;
+    border-color: var(--border-color) !important;
+    color: var(--text-primary) !important;
+}
+
+.ui-state-hover {
+    background: var(--button-primary-2) !important;
+    border: 1px solid var(--button-primary-2) !important;
+}
+
+.ui-state-active {
+    background: var(--button-primary-1) !important;
+    border: 1px solid var(--button-primary-1) !important;
+}
+
+.ui-state-highlight {
+    background: var(--button-active-1) !important;
+    border: 1px solid var(--button-active-1) !important;
+}
+
+/* Navbar CSS */
+
+.navbar {
+    background-color: var(--color-primary) !important;
+}
+
+/* Button CSS */
 
 .add-button-box {
     position: fixed;
@@ -36,24 +106,37 @@ i {
     border-radius: 50%;
     justify-content: inherit;
     font-size: 32px;
-    background: var(--add-button-primary);
+    background: var(--button-primary-1);
     color: var(--text-primary) !important;
     box-shadow: 3px 4px 10px -2px rgba(0, 0, 0, .4);
     transition: background .3s ease, box-shadow .3s ease;
 }
 
 .add-button-box:hover .add-button {
-    background: var(--add-button-hover);
+    background: var(--button-hover-1);
 }
 
 .add-button-box:active .add-button {
-    background: var(--add-button-active);
+    background: var(--button-active-1);
 }
 
-.navbar {
-    background-color: var(--color-primary);
+.btn-primary {
+    background: var(--button-primary-1) !important;
+    border-color: var(--button-primary-1) !important;
+    transition: background .3s ease !important;
 }
 
+.btn-primary:hover {
+    background: var(--button-hover-1) !important;
+    border-color: var(--button-hover-1) !important;
+}
+
+.btn-primary:active {
+    background: var(--button-active-1) !important;
+    border-color: var(--button-active-1) !important;
+}
+
+/* Card, Modal, 404 CSS */
 .card {
     background-color: var(--color-primary) !important;
     border: 0px !important;
@@ -62,10 +145,20 @@ i {
     color: var(--text-primary);
 }
 
+.card-error {
+    border-radius: .5rem !important;
+}
+
 .card-body {
     border-bottom-right-radius: .5rem !important;
     border-bottom-left-radius: .5rem !important;
     background-color: var(--color-secondary);
+}
+
+.post-diff {
+    color: var(--text-secondary);
+    font-size: 1rem !important;
+    font-style: italic;
 }
 
 .error-template {
@@ -73,6 +166,21 @@ i {
     padding: 40px 15px;
     text-align: center;
 }
+
+.modal-content {
+    border-radius: .5rem !important;
+    border: 0px !important;
+    border-bottom-left-radius: .5rem !important;
+    border-bottom-right-radius: .5rem !important;
+    background-color: var(--color-primary) !important;
+    color: var(--text-primary) !important;
+}
+
+.modal-header, .modal-footer {
+    border: 0px !important;
+}
+
+/* Embedded Google Map CSS */
 
 .map-frame {
     position: relative;

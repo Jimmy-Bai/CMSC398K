@@ -7,11 +7,7 @@ function loadData(jsonFile) {
 
 // Given new data, save it to post.json
 function savePostData(data) {
-	var obj = {
-		post: data
-	};
-
-	fs.writeFileSync('./data/post.json', JSON.stringify(obj));
+	fs.writeFileSync('./data/post.json', JSON.stringify(data));
 }
 
 module.exports = {
