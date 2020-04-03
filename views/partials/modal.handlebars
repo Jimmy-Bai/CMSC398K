@@ -7,7 +7,7 @@
       </div>
       {{!-- Modal Body --}}
       <div class="modal-body py-0">
-        <form method="POST" action="/add">
+        <form method="POST" action="/add" onsubmit="event.preventDefault(); validateForm();" name="add_post">
           {{!-- Start Date & End Date (Duration) --}}
           <div class="form-row">
             <div class="form-group col-sm-6">
@@ -24,6 +24,7 @@
             <div class="form-group col">
               <label class="col-form-label">Location</label>
               <input type="text" class="form-control" id="autocomplete-modal" name="location" placeholder="Location..." required>
+              <label class="col-form-label" id="no-match" name="location-match"></label>
             </div>
           </div>
           {{!-- Discount Type --}}
@@ -51,8 +52,8 @@
           </div>
           {{!-- Modal Footer --}}
           <div class="modal-footer px-0">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="submit" class="btn btn-primary">Add post</button>
+            <button type="button" class="btn btn-custom-2" data-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-primary btn-custom-1">Add post</button>
           </div>
         </form>
       </div>

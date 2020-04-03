@@ -14,9 +14,10 @@
         "body-parser": "^1.17.1",
         "express": "^4.15.2",
         "express-handlebars": "^3.0.0",
+        "install": "^0.13.0",
         "moment": "^2.24.0",
-        "mongodb": "^3.5.5",
         "morgan": "^1.8.1",
+        "npm": "^6.14.4",
         "underscore-node": "^0.1.2"
     }
 }

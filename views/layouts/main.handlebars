@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   {{!-- JavaScript --}}
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js"></script>
@@ -19,12 +19,10 @@
   <script src="/public/js/util.js"></script>
   <title>Final Project</title>
 </head>
-
 {{!-- Body --}}
-
 <body>
   {{!-- Navbar --}}
-  {{>nav-bar}}
+  {{>navbar}}
   {{!-- Main Post Body --}}
   {{{body}}}
   {{!-- Modal --}}
@@ -32,9 +30,11 @@
   {{!-- Persistant Add Button --}}
   <div class="add-button-box" role="button" data-toggle="modal" data-target="#add-modal">
     <div class="add-button">
-      <i class="fas fa-plus-square"></i>
+      <i class="fas fa-plus"></i>
     </div>
   </div>
+  {{!-- Toast Container --}}
+  <div class="position-absolute w-100 p-4 d-flex flex-column align-items-end" id="container-toast"></div>
 </body>
 
 </html>

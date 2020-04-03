@@ -1,23 +1,35 @@
 :root {
     font-size: 16px;
-    --bg-main: #030303;
-    --color-primary: #1a1a1b;
-    --color-secondary: #272729;
+    --bg-main: #1d2025;
+    --color-primary: #1f2933;
+    --color-secondary: #1d2025;
+    --color-primary-light: #333c45;
     --border-color: #343536;
-    --text-primary: #fcfcfc;
+    --text-primary: #eceae6;
     --text-secondary: #c0c0c0;
-    --button-primary-1: #ea80fc;
-    --button-hover-1: #ffb2ff;
-    --button-active-1: #b64fc8;
-    --button-primary-2: #ea80fc;
+    --text-dark-primary: #032420;
+    --button-primary-1: #02cedd;
+    --button-hover-1: #a8eef1;
+    --button-active-1: #72dee6;
+    --button-primary-dark: #01585E;
+    --button-primary-dark-a: #01585E50;
+    --button-primary-medium: #02949E;
+    --button-primary-2: #a2a6a6;
     --button-hover-2: #ffb2ff;
     --button-active-2: #b64fc8;
+    --error-toast-bg: #FF644D;
 }
 
 /* Native HTML Element CSS */
 
+body {
+    background-image: url('../img/bg.png');
+    background-repeat: repeat;
+}
+
 html, body {
     background-color: var(--bg-main) !important;
+    height: 100% !important;
 }
 
 input, textarea {
@@ -44,6 +56,12 @@ td a {
     color: var(--text-secondary) !important;
 }
 
+/* Font CSS */
+
+.accent {
+    color: var(--button-primary-1) !important;
+}
+
 /* JQuery Date Picker CSS */
 
 .ui-datepicker-header, .ui-widget-header {
@@ -65,24 +83,72 @@ td a {
 }
 
 .ui-state-hover {
-    background: var(--button-primary-2) !important;
-    border: 1px solid var(--button-primary-2) !important;
-}
-
-.ui-state-active {
-    background: var(--button-primary-1) !important;
-    border: 1px solid var(--button-primary-1) !important;
+    background: var(--button-hover-1) !important;
+    border: 1px solid var(--button-hover-1) !important;
+    color: var(--text-dark-primary) !important;
 }
 
 .ui-state-highlight {
+    border: .15rem solid var(--button-primary-1) !important;
+    font-weight: 600;
+    color: var(--button-primary-1) !important;
+}
+
+.ui-state-active {
     background: var(--button-active-1) !important;
     border: 1px solid var(--button-active-1) !important;
+    color: var(--text-dark-primary) !important;
 }
 
 /* Navbar CSS */
 
 .navbar {
-    background-color: var(--color-primary) !important;
+    background-color: var(--color-primary-light) !important;
+    align-items: center !important;
+    box-shadow: 3px 4px 10px -2px rgba(0, 0, 0, .4);
+}
+
+.navbar-toggler {
+    border: 0px !important;
+}
+
+.navbar-brand {
+    color: var(--text-primary) !important;
+}
+
+.nav-link {
+    color: var(--text-primary) !important;
+    display: inline !important;
+    padding-right: 5px !important;
+}
+
+.nav-link:hover {
+    color: var(--button-hover-1) !important;
+}
+
+#nav-toggle {
+    align-items: center !important;
+}
+
+#nav-toggle .active {
+    color: var(--color-primary-light) !important;
+    border: 1px solid var(--button-primary-1) !important;
+    background: var(--button-primary-1);
+    font-weight: 600;
+    border-radius: 100px;
+    padding: .25rem !important;
+}
+
+.nav-link i {
+    padding-left: 0px !important;
+}
+
+.nav-item {
+    padding: .25rem .25rem 0 .25rem;
+}
+
+#autocomplete-nav {
+    border-radius: .5rem !important;
 }
 
 /* Button CSS */
@@ -107,7 +173,7 @@ td a {
     justify-content: inherit;
     font-size: 32px;
     background: var(--button-primary-1);
-    color: var(--text-primary) !important;
+    color: var(--text-dark-primary) !important;
     box-shadow: 3px 4px 10px -2px rgba(0, 0, 0, .4);
     transition: background .3s ease, box-shadow .3s ease;
 }
@@ -120,25 +186,66 @@ td a {
     background: var(--button-active-1);
 }
 
-.btn-primary {
+.btn-custom-1, .btn-custom-2 {
+    border-radius: 100px !important;
+    font-weight: 600 !important;
+}
+
+.btn-custom-1 {
     background: var(--button-primary-1) !important;
     border-color: var(--button-primary-1) !important;
+    color: var(--text-dark-primary) !important;
     transition: background .3s ease !important;
 }
 
-.btn-primary:hover {
+.btn-custom-1:hover {
     background: var(--button-hover-1) !important;
     border-color: var(--button-hover-1) !important;
 }
 
-.btn-primary:active {
+.btn-custom-1:active {
     background: var(--button-active-1) !important;
     border-color: var(--button-active-1) !important;
 }
 
+.btn-custom-2 {
+    background: var(--color-primary) !important;
+    border: .15rem solid var(--button-primary-2) !important;
+    color: var(--button-primary-2) !important;
+    transition: background .3s ease, border .3s ease, color .3s ease!important;
+}
+
+.btn-custom-2:hover {
+    background: var(--button-primary-dark) !important;
+    border: .15rem solid var(--button-primary-1) !important;
+    color: var(--button-primary-1) !important;
+}
+
+.btn-custom-2:active {
+    background: var(--button-primary-2) !important;
+    border-color: var(--button-primary-2) !important;
+    color: var(--text-dark-primary) !important;
+}
+
+.btn-custom-3 {
+    background: var(--button-primary-dark) !important;
+    border: .15rem solid var(--button-primary-1) !important;
+    border-radius: 100px;
+    color: var(--button-primary-1) !important;
+    padding: .25rem .5rem .25rem .5rem !important;
+    transition: background .3s ease, border .3s ease, color .3s ease!important;
+}
+
+.btn-custom-4 {
+    background: var(--color-primary) !important;
+    border: .15rem solid var(--button-primary-2) !important;
+    color: var(--button-primary-2) !important;
+}
+
 /* Card, Modal, 404 CSS */
+
 .card {
-    background-color: var(--color-primary) !important;
+    background: var(--color-primary-light) !important;
     border: 0px !important;
     border-radius: .5rem !important;
     box-shadow: 3px 4px 10px -2px rgba(0, 0, 0, .4);
@@ -152,13 +259,38 @@ td a {
 .card-body {
     border-bottom-right-radius: .5rem !important;
     border-bottom-left-radius: .5rem !important;
-    background-color: var(--color-secondary);
+    background: var(--color-primary);
+}
+
+.card-text {
+    border: .15rem dashed var(--button-primary-1);
+    border-radius: .5rem !important;
+    padding: .5rem !important;
+    background: var(--button-primary-dark-a);
+    color: var(--button-primary-1);
+    font-weight: 600;
+}
+
+.card-title {
+    font-size: 1.25rem !important;
+}
+
+.type {
+    text-align: right;
 }
 
 .post-diff {
     color: var(--text-secondary);
     font-size: 1rem !important;
     font-style: italic;
+}
+
+.post-title {
+    color: var(--button-primary-1) !important;
+}
+
+.post-title:hover {
+    text-decoration: none !important;
 }
 
 .error-template {
@@ -174,10 +306,35 @@ td a {
     border-bottom-right-radius: .5rem !important;
     background-color: var(--color-primary) !important;
     color: var(--text-primary) !important;
+    box-shadow: 3px 4px 10px -2px rgba(0, 0, 0, .4);
 }
 
 .modal-header, .modal-footer {
     border: 0px !important;
+}
+
+#no-match {
+    font-style: italic;
+    color: var(--error-toast-bg);
+}
+
+/* Bootstrap Toast CSS */
+
+#container-toast {
+    top: 2rem; 
+    right: 2rem;
+    z-index: 7000 !important;
+}
+
+.toast-body {
+	word-wrap: anywhere;
+	background: var(--error-toast-bg);
+	color: var(--text-primary);
+	font-weight: 600;
+}
+
+.toast-body, .toast {
+    border-radius: .5rem !important;
 }
 
 /* Embedded Google Map CSS */
