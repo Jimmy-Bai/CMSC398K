@@ -3,6 +3,7 @@ var bodyParser = require('body-parser');
 var logger = require('morgan');
 var exphbs = require('express-handlebars');
 var moment = require('moment');
+var cron = require("node-cron");
 var _ = require('underscore-node');
 var dataUtil = require('./public/js/data-util');
 
@@ -185,6 +186,26 @@ app.get('/filter/:filter_type', function (req, res) {
     code: _ERROR_MSG.filter,
     current: current
   });
+});
+
+// Runs cron job every day at 00:00
+// Cleans out old post where end dates are before todays date
+cron.schedule("0 0 * * *", function () {
+  var mToday = new moment(new Date());
+  var result = [];
+
+  // Loop through all the post
+  _POST.post.forEach(function (currPost) {
+    var mCurrEndDate = new moment(moment(currPost.end_date, "MMM Do, YYYY").toDate());
+    var mDuration = moment.duration(mCurrEndDate.diff(mToday));
+
+    if (mDuration < 0) {
+      result.push(currPost);
+    }
+  });
+
+  _POST.post = result;
+  dataUtil.savePostData(_POST);
 });
 
 // Render 404 on all failed link
