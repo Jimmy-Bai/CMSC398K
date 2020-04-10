@@ -15,8 +15,6 @@
     --button-primary-dark-a: #01585E50;
     --button-primary-medium: #02949E;
     --button-primary-2: #a2a6a6;
-    --button-hover-2: #ffb2ff;
-    --button-active-2: #b64fc8;
     --error-toast-bg: #FF644D;
 }
 
@@ -269,6 +267,7 @@ td a {
     background: var(--button-primary-dark-a);
     color: var(--button-primary-1);
     font-weight: 600;
+    white-space: pre-line;
 }
 
 .card-title {
@@ -311,6 +310,11 @@ td a {
 
 .modal-header, .modal-footer {
     border: 0px !important;
+}
+
+.close-icon {
+    color: var(--text-primary);
+    font-size: 1rem;
 }
 
 #no-match {

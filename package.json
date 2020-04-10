@@ -16,6 +16,7 @@
         "express-handlebars": "^3.0.0",
         "install": "^0.13.0",
         "moment": "^2.24.0",
+        "mongoose": "^5.9.7",
         "morgan": "^1.8.1",
         "node-cron": "^2.0.3",
         "npm": "^6.14.4",

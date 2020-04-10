@@ -1,12 +1,32 @@
 {
   "post": [
     {
+      "post_date": "2020-04-09T23:53:28.493Z",
+      "start_date": "Apr 10th, 2020",
+      "end_date": "Apr 11th, 2020",
+      "type": "Freebies",
+      "location": "Casey's Coffee",
+      "description": "Free coffee if you sing the ABCs",
+      "views": 0,
+      "uuid": 1586476408493
+    },
+    {
+      "post_date": "2020-04-09T23:50:55.277Z",
+      "start_date": "Apr 10th, 2020",
+      "end_date": "Apr 11th, 2020",
+      "type": "Discounts",
+      "location": "Blaze Pizza",
+      "description": "Buy 1 get 1 free!\r\nPlease bring your student ID though, since this is for student only.",
+      "views": 0,
+      "uuid": 1586476255278
+    },
+    {
       "post_date": "2020-03-31T02:44:39.317Z",
       "start_date": "Apr 1st, 2020",
       "end_date": "Apr 1st, 2020",
       "type": "Freebies",
       "location": "Bagel Place",
-      "description": "kjkljl",
+      "description": "Unlimited bagles for the day if you are a student.",
       "views": 32,
       "uuid": 1585622679317
     },
@@ -16,7 +36,7 @@
       "end_date": "Mar 31st, 2020",
       "type": "Freebies",
       "location": "Chipotle Mexican Grill",
-      "description": "jljlkjkljl",
+      "description": "Free Chipotle for people have a 4.0 in GPA.\r\nNot sure how they are gonna check that though.\r\nMaybe fake a transcript ;)",
       "views": 7,
       "uuid": 1585622656553
     },
@@ -26,8 +46,8 @@
       "end_date": "Mar 17th, 2020",
       "type": "Freebies",
       "location": "Aroy Thai Restaurant",
-      "description": "ASF",
-      "views": 1,
+      "description": "Free milk tea with meal that's more then $10.\r\nFree fortune cookies.",
+      "views": 2,
       "uuid": 1585602456381
     },
     {
@@ -36,7 +56,7 @@
       "end_date": "Mar 10th, 2020",
       "type": "Discount",
       "location": "Aroy Thai Restaurant",
-      "description": "Free pizza for everyone",
+      "description": "25% off with you eat your entire meal in 30 minutes.\r\nYou can bring your friends to eat it with you.",
       "views": 4,
       "uuid": 123456789
     },
@@ -44,10 +64,10 @@
       "post_date": "2020-03-30T06:49:45.176Z",
       "start_date": "Mar 17th, 2020",
       "end_date": "Mar 10th, 2020",
-      "type": "Free",
+      "type": "Freebies",
       "location": "Blaze Pizza",
-      "description": "Free 420",
-      "views": 2,
+      "description": "Free 420. I am just kidding don't do drugs kid.",
+      "views": 11,
       "uuid": 1585550985177
     },
     {
@@ -56,7 +76,7 @@
       "end_date": "Mar 17th, 2020",
       "type": "Discount",
       "location": "Aroy Thai Restaurant",
-      "description": "Discount 2",
+      "description": "You can buy this restaurant for 25% off.\r\n30% off if you know the owner well.",
       "views": 239,
       "uuid": 1585602301096
     },
@@ -66,8 +86,8 @@
       "end_date": "Mar 24th, 2020",
       "type": "Freebies",
       "location": "Aroy Thai Restaurant",
-      "description": "This count",
-      "views": 11,
+      "description": "Free water if you sit down and eat at the restaurant.\r\nStay hydrated kids.",
+      "views": 19,
       "uuid": 1585602317829
     },
     {
@@ -76,8 +96,8 @@
       "end_date": "Mar 20th, 2020",
       "type": "Freebies",
       "location": "Aroy Thai Restaurant",
-      "description": "Discou t",
-      "views": 0,
+      "description": "Free meals for hungry student.\r\nYou gotta be really hungry though.",
+      "views": 11,
       "uuid": 1585602352202
     }
   ]

@@ -7,7 +7,7 @@
       </div>
       {{!-- Modal Body --}}
       <div class="modal-body py-0">
-        <form method="POST" action="/add" onsubmit="event.preventDefault(); validateForm();" name="add_post">
+        <form method="POST" action="/add" onsubmit="return validateForm();" name="add_post">
           {{!-- Start Date & End Date (Duration) --}}
           <div class="form-row">
             <div class="form-group col-sm-6">

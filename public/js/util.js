@@ -177,7 +177,7 @@ function validateForm() {
     return false;
   }
 
-  return false;
+  return true;
 }
 
 // Given a message, create toast and append to toast container
@@ -187,7 +187,7 @@ function createToast(msgCode) {
 
   // Create toast
   var toastBody = '<div class="toast-body">' + error_msg[msgCode] + '</div>';
-  var closeIcon = '<span aria-hidden="true">×</span>';
+  var closeIcon = '<i class="fas fa-times close-icon" aria-hidden="true"></i>';
   var button = '<button type="button" class="mx-2 my-1 close" data-dismiss="toast" aria-label="Close">' + closeIcon + '</button>';
   var toast = '<div id="' + id + '" class="toast ml-auto w-25" role="alert" data-delay="2500" data-autohide="true">' + button + toastBody + '</div>';
 
