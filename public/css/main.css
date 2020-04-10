@@ -27,7 +27,6 @@ body {
 
 html, body {
     background-color: var(--bg-main) !important;
-    height: 100% !important;
 }
 
 input, textarea {

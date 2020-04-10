@@ -9,7 +9,7 @@ Date: April 10th, 2020
 
 Project Topic: List of ongoing discounts and freebies from restaurants around College Park
 
-URL: 
+URL: https://subtle-discount-traits.herokuapp.com/
 
 ---
 
