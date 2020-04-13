@@ -1,0 +1,414 @@
+{
+  "restaurant_detail": [
+    {
+      "name": "Arby's",
+      "uuid": "000001",
+      "map_url": "https://maps.google.com/maps?q=Arby's&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Aroy Thai Restaurant",
+      "uuid": "000002",
+      "map_url": "https://maps.google.com/maps?q=Aroy%20Thai%20Restaurant&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Bagel Place",
+      "uuid": "000003",
+      "map_url": "https://maps.google.com/maps?q=Bagel%20Place&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Blaze Pizza",
+      "uuid": "000004",
+      "map_url": "https://maps.google.com/maps?q=Blaze%20Pizza&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Burger King",
+      "uuid": "000005",
+      "map_url": "https://maps.google.com/maps?q=Burger%20King&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "C.B Chinese Grill",
+      "uuid": "000006",
+      "map_url": "https://maps.google.com/maps?q=C.B%20Chinese%20Grill&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Casey's Coffee",
+      "uuid": "000007",
+      "map_url": "https://maps.google.com/maps?q=Casey's%20Coffee&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "CAVA",
+      "uuid": "000008",
+      "map_url": "https://maps.google.com/maps?q=CAVA&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Chick-fil-A",
+      "uuid": "000009",
+      "map_url": "https://maps.google.com/maps?q=Chick-fil-A&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Chipotle Mexican Grill",
+      "uuid": "000010",
+      "map_url": "https://maps.google.com/maps?q=Chipotle%20Mexican%20Grill&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Class 520",
+      "uuid": "000011",
+      "map_url": "https://maps.google.com/maps?q=Class%20520&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Cluck U Chicken",
+      "uuid": "000012",
+      "map_url": "https://maps.google.com/maps?q=Cluck%20U%20Chicken&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Cold Stone Creamery",
+      "uuid": "000013",
+      "map_url": "https://maps.google.com/maps?q=Cold%20Stone%20Creamery&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "College Park Grill",
+      "uuid": "000014",
+      "map_url": "https://maps.google.com/maps?q=College%20Park%20Grill&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Cornerstone Grill & Loft",
+      "uuid": "000015",
+      "map_url": "https://maps.google.com/maps?q=Cornerstone%20Grill%20&%20Loft&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "cranberry lemonade",
+      "uuid": "000016",
+      "map_url": "https://maps.google.com/maps?q=cranberry%20lemonade&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Denny's",
+      "uuid": "000017",
+      "map_url": "https://maps.google.com/maps?q=Denny's&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Domino's Pizza",
+      "uuid": "000018",
+      "map_url": "https://maps.google.com/maps?q=Domino's%20Pizza&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Dunkin'",
+      "uuid": "000019",
+      "map_url": "https://maps.google.com/maps?q=Dunkin'&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Five Guys",
+      "uuid": "000020",
+      "map_url": "https://maps.google.com/maps?q=Five%20Guys&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Food Factory",
+      "uuid": "000021",
+      "map_url": "https://maps.google.com/maps?q=Food%20Factory&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Gongcha",
+      "uuid": "000022",
+      "map_url": "https://maps.google.com/maps?q=Gongcha&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Hanami Japanese Restaurant",
+      "uuid": "000023",
+      "map_url": "https://maps.google.com/maps?q=Hanami%20Japanese%20Restaurant&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Insomnia Cookies",
+      "uuid": "000024",
+      "map_url": "https://maps.google.com/maps?q=Insomnia%20Cookies&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Ivy Noodles",
+      "uuid": "000025",
+      "map_url": "https://maps.google.com/maps?q=Ivy%20Noodles&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Jason's Deli",
+      "uuid": "000026",
+      "map_url": "https://maps.google.com/maps?q=Jason's%20Deli&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Jimmy John's",
+      "uuid": "000027",
+      "map_url": "https://maps.google.com/maps?q=Jimmy%20John's&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Jumbo Jumbo Cafe",
+      "uuid": "000028",
+      "map_url": "https://maps.google.com/maps?q=Jumbo%20Jumbo%20Cafe&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Kangnam BBQ",
+      "uuid": "000029",
+      "map_url": "https://maps.google.com/maps?q=Kangnam%20BBQ&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "King Kong Restaurant",
+      "uuid": "000030",
+      "map_url": "https://maps.google.com/maps?q=King%20Kong%20Restaurant&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Krazi Burrito",
+      "uuid": "000031",
+      "map_url": "https://maps.google.com/maps?q=Krazi%20Burrito&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Krazi Kebob",
+      "uuid": "000032",
+      "map_url": "https://maps.google.com/maps?q=Krazi%20Kebob&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Kung Fu Tea",
+      "uuid": "000033",
+      "map_url": "https://maps.google.com/maps?q=Kung%20Fu%20Tea&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Looney's Pub",
+      "uuid": "000034",
+      "map_url": "https://maps.google.com/maps?q=Looney's%20Pub&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "LOTSA Stone Fired Pizza",
+      "uuid": "000035",
+      "map_url": "https://maps.google.com/maps?q=LOTSA%20Stone%20Fired%20Pizza&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Marathon Deli",
+      "uuid": "000036",
+      "map_url": "https://maps.google.com/maps?q=Marathon%20Deli&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Marathon Deli",
+      "uuid": "000037",
+      "map_url": "https://maps.google.com/maps?q=Marathon%20Deli&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Maryland Dairy",
+      "uuid": "000038",
+      "map_url": "https://maps.google.com/maps?q=Maryland%20Dairy&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "McDonald's",
+      "uuid": "000039",
+      "map_url": "https://maps.google.com/maps?q=McDonald's&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "MilkBoy ArtHouse",
+      "uuid": "000040",
+      "map_url": "https://maps.google.com/maps?q=MilkBoy%20ArtHouse&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Moby Dick House of Kabob",
+      "uuid": "000041",
+      "map_url": "https://maps.google.com/maps?q=Moby%20Dick%20House%20of%20Kabob&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Nando's Peri-Peri",
+      "uuid": "000042",
+      "map_url": "https://maps.google.com/maps?q=Nando's%20Peri-Peri&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Noodles and Company",
+      "uuid": "000043",
+      "map_url": "https://maps.google.com/maps?q=Noodles%20and%20Company&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "North Campus Diner",
+      "uuid": "000044",
+      "map_url": "https://maps.google.com/maps?q=North%20Campus%20Diner&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Northwest Chinese Food",
+      "uuid": "000045",
+      "map_url": "https://maps.google.com/maps?q=Northwest%20Chinese%20Food&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "NuVegan Cafe",
+      "uuid": "000046",
+      "map_url": "https://maps.google.com/maps?q=NuVegan%20Cafe&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Old Maryland Grill",
+      "uuid": "000047",
+      "map_url": "https://maps.google.com/maps?q=Old%20Maryland%20Grill&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Panda Express",
+      "uuid": "000048",
+      "map_url": "https://maps.google.com/maps?q=Panda%20Express&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Papa John's Pizza",
+      "uuid": "000049",
+      "map_url": "https://maps.google.com/maps?q=Papa%20John's%20Pizza&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Pho D'Lite",
+      "uuid": "000050",
+      "map_url": "https://maps.google.com/maps?q=Pho%20D'Lite&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Pho Thom",
+      "uuid": "000051",
+      "map_url": "https://maps.google.com/maps?q=Pho%20Thom&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Pizza Kingdom",
+      "uuid": "000052",
+      "map_url": "https://maps.google.com/maps?q=Pizza%20Kingdom&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "POH-YO Charcoal Chicken",
+      "uuid": "000053",
+      "map_url": "https://maps.google.com/maps?q=POH-YO%20Charcoal%20Chicken&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Popeyes Louisiana Kitchen",
+      "uuid": "000054",
+      "map_url": "https://maps.google.com/maps?q=Popeyes%20Louisiana%20Kitchen&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Potbelly Sandwich Shop",
+      "uuid": "000055",
+      "map_url": "https://maps.google.com/maps?q=Potbelly%20Sandwich%20Shop&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Qdoba",
+      "uuid": "000056",
+      "map_url": "https://maps.google.com/maps?q=Qdoba&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "QU JAPAN",
+      "uuid": "000057",
+      "map_url": "https://maps.google.com/maps?q=QU%20JAPAN&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "RJ Bentley's Restaurant",
+      "uuid": "000058",
+      "map_url": "https://maps.google.com/maps?q=RJ%20Bentley's%20Restaurant&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Saburo Ramen Bar",
+      "uuid": "000059",
+      "map_url": "https://maps.google.com/maps?q=Saburo%20Ramen%20Bar&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Saladworks",
+      "uuid": "000060",
+      "map_url": "https://maps.google.com/maps?q=Saladworks&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Samovar",
+      "uuid": "000061",
+      "map_url": "https://maps.google.com/maps?q=Samovar&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Sbarro",
+      "uuid": "000062",
+      "map_url": "https://maps.google.com/maps?q=Sbarro&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Seoul Spice",
+      "uuid": "000063",
+      "map_url": "https://maps.google.com/maps?q=Seoul%20Spice&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Shanghai Cafe",
+      "uuid": "000064",
+      "map_url": "https://maps.google.com/maps?q=Shanghai%20Cafe&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Shanghai Tokyo Cafe",
+      "uuid": "000065",
+      "map_url": "https://maps.google.com/maps?q=Shanghai%20Tokyo%20Cafe&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "South Campus Diner",
+      "uuid": "000066",
+      "map_url": "https://maps.google.com/maps?q=South%20Campus%20Diner&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Starbucks",
+      "uuid": "000067",
+      "map_url": "https://maps.google.com/maps?q=Starbucks&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Subway",
+      "uuid": "000068",
+      "map_url": "https://maps.google.com/maps?q=Subway&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Sushinado & Teriyaki",
+      "uuid": "000069",
+      "map_url": "https://maps.google.com/maps?q=Sushinado%20&%20Teriyaki&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "sweetgreen",
+      "uuid": "000070",
+      "map_url": "https://maps.google.com/maps?q=sweetgreen&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Taco Bell",
+      "uuid": "000071",
+      "map_url": "https://maps.google.com/maps?q=taco%20Bell&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Taqueria Habanero",
+      "uuid": "000072",
+      "map_url": "https://maps.google.com/maps?q=Taqueria%20Habanero&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Ten Ren's Tea Time",
+      "uuid": "000073",
+      "map_url": "https://maps.google.com/maps?q=Ten%20Ren's%20Tea%20Time&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Terrapin's Turf",
+      "uuid": "000074",
+      "map_url": "https://maps.google.com/maps?q=Terrapin's%20Turf&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "The Board and Brew",
+      "uuid": "000075",
+      "map_url": "https://maps.google.com/maps?q=The%20Board%20and%20Brew&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "The Common",
+      "uuid": "000076",
+      "map_url": "https://maps.google.com/maps?q=The%20Common&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "The Original ledo Restaurant",
+      "uuid": "000077",
+      "map_url": "https://maps.google.com/maps?q=The%20Original%20ledo%20Restaurant&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "The Red Boat Asian Fusion",
+      "uuid": "000078",
+      "map_url": "https://maps.google.com/maps?q=The%20Red%20Boat%20Asian%20Fusion&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "The Spot Mini",
+      "uuid": "000079",
+      "map_url": "https://maps.google.com/maps?q=The%20Spot%20Mini&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Wasabi Bistro",
+      "uuid": "000080",
+      "map_url": "https://maps.google.com/maps?q=Wasabi%20Bistro&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Wings Over",
+      "uuid": "000081",
+      "map_url": "https://maps.google.com/maps?q=Wings%20Over&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      "name": "Zhang's Noodles",
+      "uuid": "000082",
+      "map_url": "https://maps.google.com/maps?q=Zhang's%20Noodles&t=&z=17&ie=UTF8&iwloc=&output=embed"
+    }
+  ]
+}
