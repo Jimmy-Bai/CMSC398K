@@ -16,7 +16,7 @@ const { allowInsecurePrototypeAccess } = require('@handlebars/allow-prototype-ac
 
 // Require non-constant packages
 require('dotenv').config();
-require('./public/js/passport')(passport);
+require('./public/js/passport').Initialize(passport);
 
 // Require local js files
 const AppUtil = require('./public/js/app-util');
@@ -40,8 +40,7 @@ mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopol
 app.engine('handlebars', exphbs({
   defaultLayout: 'layout',
   layoutsDir: __dirname + '/views/layouts/',
-  handlebars: allowInsecurePrototypeAccess(handlebars),
-  helpers: require('./public/js/handlebars-helper')
+  handlebars: allowInsecurePrototypeAccess(handlebars)
 }));
 
 // Setting up MongoDB session store
@@ -92,11 +91,10 @@ app.use('/', require('./routes/index')(io));
 app.use('/user', require('./routes/user')(io));
 app.use('/island', require('./routes/island')(io));
 
-// Setting up main Socket.io server
-// io.on('connection', function (socket) {
-//   console.log(`Socket (${socket.id}) connecting to /`);
-// });
-
+// Setting up 404 page
+app.use(function (req, res) {
+  res.status(404).render('404');
+});
 
 // Add port for app
 server.listen(PORT, function () {

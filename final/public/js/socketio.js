@@ -88,7 +88,11 @@ $(function () {
 
           // Expand current place container
           $('#current-place-col').removeClass('col-sm-3');
-          $('#current-place-col').addClass('col-sm-9');
+          $('#current-place-col').addClass('col-sm-6');
+
+          // Expand visitor list container
+          $('#visitor-list-col').removeClass('col-sm-3');
+          $('#visitor-list-col').addClass('col-sm-6');
         }
       }
     }
@@ -127,15 +131,6 @@ $(function () {
     }
   });
 });
-
-// Host creat island
-function IslandCreation(islandUuid) {
-  // Sent data to sockets
-  socket.emit('islandCreation', {
-    socket_uuid: socket.id,
-    island_uuid: islandUuid
-  });
-}
 
 // Current user join queue
 function JoinQueue(islandUuid, currUserUuid) {
